@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="index.js"></script>
+</head>
+<body>
+<section>
+    <input type="text" id="result"> </input>
+    <button class="c" value="c" onclick="clr()"> C</button>
+    <button value="7" onclick="view ('7')"> 7</button>
+    <button value="8" onclick="view ('8')"> 8</button>
+    <button value="9" onclick="view ('9')"> 9</button>
+    <button class="operation" value="/" onclick="view ('/')"> /</button>
+    
+
+    <button value="4" onclick="view ('4')"> 4</button>
+    <button value="5" onclick="view ('5')"> 5</button>
+    <button value="6" onclick="view ('6')"> 6</button>
+    <button class="operation" value="*" onclick="view ('*')"> *</button>
+
+    <button value="1" onclick="view ('1')"> 1</button>
+    <button value="2" onclick="view ('2')"> 2</button>
+    <button value="3" onclick="view ('3')"> 3</button>
+    <button class="operation" value="-" onclick="view ('-')"> -</button>
+
+    <button value="0" onclick="view ('0')"> 0</button>
+    <button value="." onclick="view ('.')"> .</button>
+    <button class="equal" value="=" onclick="compute()"> =</button>
+    <button class="operation" value="+" onclick="view ('+')"> +</button>
+</section>
+</body>
+</html>
